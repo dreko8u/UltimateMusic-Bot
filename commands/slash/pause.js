@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('pause')
-        .setDescription('Pause the current song'),
+        .setDescription('إيقاف الأغنية الحالية مؤقتًا دون حذفها'),
     securityToken: COMMAND_SECURITY_TOKEN,
 
     async execute(interaction, client) {
