@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('play')
-        .setDescription('Play a song or add to queue')
+        .setDescription('تشغيل أغنية أو إضافتها إلى قائمة الانتظار باستخدام اسم أو رابط')
         .addStringOption(option =>
             option.setName('query')
                 .setDescription('Song name, URL, or search query')
