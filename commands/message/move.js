@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     name: 'move',
     aliases: ['mv', 'movetrack'],
-    description: 'Move a song to different position in queue',
+    description: 'نقل أغنية من مكانها الحالي إلى مكان آخر داخل قائمة الانتظار',
     securityToken: COMMAND_SECURITY_TOKEN,
     
     async execute(message, args, client) {
