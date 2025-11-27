@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('remove')
-        .setDescription('Remove a song from queue')
+        .setDescription('حذف أغنية من قائمة الانتظار حسب رقمها')
         .addIntegerOption(option =>
             option.setName('position')
                 .setDescription('Position in queue (1, 2, 3...)')
