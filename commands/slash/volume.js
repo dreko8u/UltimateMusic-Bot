@@ -6,10 +6,10 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('volume')
-        .setDescription('Set the music volume')
+        .setDescription('تعيين مستوى الصوت من 1 إلى 100')
         .addIntegerOption(option =>
             option.setName('level')
-                .setDescription('Volume level (1-100)')
+                .setDescription('مستوى الصوت (1-100)')
                 .setMinValue(1)
                 .setMaxValue(100)
                 .setRequired(true)
