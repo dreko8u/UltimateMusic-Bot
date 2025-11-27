@@ -25,7 +25,7 @@ class CentralEmbedHandler {
             const channel = await this.client.channels.fetch(channelId);
             
             const embed = new EmbedBuilder()
-            .setAuthor({ name: 'Dreko Music Control Center', iconURL: 'https://cdn.discordapp.com/emojis/896724352949706762.gif', url: 'https://discord.gg/fbkjvss' })
+            .setAuthor({ name: 'Ultimate Music Control Center', iconURL: 'https://cdn.discordapp.com/emojis/896724352949706762.gif', url: 'https://discord.gg/xQF9f9yUEM' })
                 .setDescription([
                     '',
                     '- Simply type a **song name** or **YouTube link** to start the party!',
@@ -40,7 +40,7 @@ class CentralEmbedHandler {
                         value: [
                             '• `shape of you`',
                             '• `lofi hip hop beats`',
-                            '• `https://youtu.be/dQw4w9WgXcQ`',
+                            '• `https://discord.gg/fbkjvss`',
                             '• `imagine dragons believer`'
                         ].join('\n'),
                         inline: true
@@ -69,7 +69,7 @@ class CentralEmbedHandler {
                 )
                 .setImage('https://i.ibb.co/DDSdKy31/ezgif-8aec7517f2146d.gif')
                 .setFooter({ 
-                    text: 'Dreko Music Bot • Developed By Dreko!',
+                    text: 'Dreko Music Bot • Developed By Dreko',
                     iconURL: this.client.user.displayAvatarURL()
                 })
                 .setTimestamp();
@@ -213,7 +213,7 @@ class CentralEmbedHandler {
             } else {
                
                 embed = new EmbedBuilder()
-                .setAuthor({ name: 'Dreko Music Control Center', iconURL: 'https://cdn.discordapp.com/emojis/896724352949706762.gif', url: 'https://discord.gg/fbkjvss' })
+                .setAuthor({ name: 'Dreko Music Control Center', iconURL: 'https://cdn.discordapp.com/emojis/896724352949706762.gif', url: 'https://discord.gg/xQF9f9yUEM' })
                 .setDescription([
                     '',
                     '- Simply type a **song name** or **YouTube link** to start the party!',
@@ -257,7 +257,7 @@ class CentralEmbedHandler {
                 )
                 .setImage('https://i.ibb.co/DDSdKy31/ezgif-8aec7517f2146d.gif')
                 .setFooter({ 
-                    text: 'Dreko Music Bot • Developed By Dreko!',
+                    text: 'Dreko Music Bot • Developed By Dreko',
                     iconURL: this.client.user.displayAvatarURL()
                 })
                 .setTimestamp();
@@ -354,4 +354,3 @@ class CentralEmbedHandler {
 }
 
 module.exports = CentralEmbedHandler;
-
