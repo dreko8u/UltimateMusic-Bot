@@ -7,7 +7,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('disable-central')
-        .setDescription('Disable the central music system')
+        .setDescription('تعطيل نظام الموسيقى المركزي في السيرفر')
         .setDefaultMemberPermissions(PermissionFlagsBits.ManageChannels),
     securityToken: COMMAND_SECURITY_TOKEN,
 
