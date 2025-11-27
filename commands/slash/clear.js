@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('clear')
-        .setDescription('Clear all songs from queue'),
+        .setDescription('مسح جميع الأغاني من قائمة الانتظار وإفراغها تمامًا'),
     securityToken: COMMAND_SECURITY_TOKEN,
 
     async execute(interaction, client) {
