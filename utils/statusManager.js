@@ -296,7 +296,7 @@ class StatusManager {
         if (!this.isPlaying) {
             await this.client.user.setPresence({
                 activities: [{
-                    name: `🎸 Music in Dreko server`,
+                    name: `🎸 Music in ${serverCount} servers`,
                     type: ActivityType.Playing
                 }],
                 status: 'dnd'
@@ -366,5 +366,6 @@ class StatusManager {
 }
 
 module.exports = StatusManager;
+
 
 
