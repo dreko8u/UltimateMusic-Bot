@@ -7,7 +7,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     name: 'clear',
     aliases: ['empty', 'clean', 'clearqueue'],
-    description: 'Clear all songs from queue',
+    description: 'يمسح جميع الأغاني من قائمة الانتظار ويجعلها فارغة',
     securityToken: COMMAND_SECURITY_TOKEN,
 
     async execute(message, args, client) {
