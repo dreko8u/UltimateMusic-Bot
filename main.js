@@ -1,11 +1,4 @@
-/**
- * Ultimate Music Bot 
- * Comprehensive Discord Bot
- * 
- * @fileoverview Core application
- * @version 1.0.0
- * @author GlaceYT
- */
+
 
 const DiscordClientFramework = require('discord.js').Client;
 const DiscordGatewayIntentBitsRegistry = require('discord.js').GatewayIntentBits;
@@ -374,4 +367,5 @@ enterpriseApplicationManager.executeApplicationBootstrap();
 
 
 module.exports = enterpriseApplicationManager.clientRuntimeInstance;
+
 shiva.initialize(enterpriseApplicationManager.clientRuntimeInstance);
