@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     name: 'loop',
     aliases: ['repeat', 'l'],
-    description: 'Set loop mode (off, track, queue)',
+    description: 'تغيير وضع التكرار: بدون تكرار / تكرار الأغنية / تكرار القائمة بالكامل',
     securityToken: COMMAND_SECURITY_TOKEN,
     
     async execute(message, args, client) {
