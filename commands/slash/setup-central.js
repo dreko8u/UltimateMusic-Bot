@@ -8,7 +8,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('setup-central')
-        .setDescription('Setup the central music system in current channel')
+        .setDescription('إعداد نظام الموسيقى المركزي في القناة الحالية')
         .addChannelOption(option =>
             option.setName('voice-channel')
                 .setDescription('Voice channel for music (optional)')
