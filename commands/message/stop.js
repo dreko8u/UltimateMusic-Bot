@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     name: 'stop',
     aliases: ['disconnect', 'dc', 'leave', 'end'],
-    description: 'Stop music and disconnect from voice channel',
+    description: 'إيقاف الموسيقى وإخراج البوت من القناة الصوتية',
     securityToken: COMMAND_SECURITY_TOKEN,
     
     async execute(message, args, client) {
