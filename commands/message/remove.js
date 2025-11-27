@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     name: 'remove',
     aliases: ['rm', 'delete', 'del'],
-    description: 'Remove a song from queue',
+    description: 'حذف أغنية من قائمة الانتظار بناءً على رقمها',
     securityToken: COMMAND_SECURITY_TOKEN,
     
     async execute(message, args, client) {
