@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('skip')
-        .setDescription('Skip the current song'),
+        .setDescription('تخطي الأغنية الحالية وتشغيل التالية في القائمة'),
     securityToken: COMMAND_SECURITY_TOKEN,
 
     async execute(interaction, client) {
