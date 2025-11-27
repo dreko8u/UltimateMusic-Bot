@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('shuffle')
-        .setDescription('Shuffle the queue'),
+        .setDescription('خلط ترتيب قائمة الانتظار بشكل عشوائي'),
     securityToken: COMMAND_SECURITY_TOKEN,
 
     async execute(interaction, client) {
