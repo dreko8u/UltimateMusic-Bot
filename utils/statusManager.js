@@ -40,7 +40,7 @@ class StatusManager {
                 name: activity,
                 type: ActivityType.Listening
             }],
-            status: 'online'
+            status: 'dnd'
         });
         
     
@@ -51,7 +51,7 @@ class StatusManager {
                         name: activity,
                         type: ActivityType.Listening
                     }],
-                    status: 'online'
+                    status: 'dnd'
                 });
                 console.log(`🔄 Status refreshed: ${activity}`);
             }
@@ -270,14 +270,14 @@ class StatusManager {
         this.stopCurrentStatus();
         this.isPlaying = false;
         
-        const defaultActivity = `🎵 Ready for music!`;
+        const defaultActivity = `🎵 Ready for music`;
         
         await this.client.user.setPresence({
             activities: [{
                 name: defaultActivity,
                 type: ActivityType.Watching
             }],
-            status: 'online'
+            status: 'dnd'
         });
         
         console.log(`✅ Status reset to: ${defaultActivity}`);
@@ -299,7 +299,7 @@ class StatusManager {
                     name: `🎸 Music in ${serverCount} servers`,
                     type: ActivityType.Playing
                 }],
-                status: 'online'
+                status: 'dnd'
             });
             //console.log(`✅ Server count status set: ${serverCount} servers`);
         }
@@ -366,3 +366,4 @@ class StatusManager {
 }
 
 module.exports = StatusManager;
+
