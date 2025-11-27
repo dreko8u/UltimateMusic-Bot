@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     name: 'jump',
     aliases: ['j', 'skipto', 'goto'],
-    description: 'Jump to a specific song in queue',
+    description: 'الانتقال مباشرةً إلى أغنية محددة داخل قائمة الانتظار حسب رقمها',
     securityToken: COMMAND_SECURITY_TOKEN,
     
     async execute(message, args, client) {
