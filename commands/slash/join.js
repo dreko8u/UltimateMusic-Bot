@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('join')
-        .setDescription('Join your voice channel'),
+        .setDescription('جعل البوت ينضم إلى القناة الصوتية التي تتواجد فيها'),
     securityToken: COMMAND_SECURITY_TOKEN,
 
     async execute(interaction, client) {
