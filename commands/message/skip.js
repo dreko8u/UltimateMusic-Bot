@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     name: 'skip',
     aliases: ['s', 'next', 'fs', 'forceskip'],
-    description: 'Skip the current song',
+    description: 'تخطي الأغنية الحالية وتشغيل التالية',
     securityToken: COMMAND_SECURITY_TOKEN,
     
     async execute(message, args, client) {
