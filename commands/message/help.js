@@ -8,7 +8,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     name: 'help',
     aliases: ['h'],
-    description: 'List all available commands',
+    description: 'يعرض جميع الأوامر المتاحة مع شرح كل واحد منها',
     securityToken: COMMAND_SECURITY_TOKEN,
 
     async execute(message, args, client) {
