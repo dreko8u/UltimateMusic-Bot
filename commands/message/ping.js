@@ -5,7 +5,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 
 module.exports = {
     name: 'ping',
-    description: 'Check the bot\'s latency and uptime',
+    description: 'عرض سرعة استجابة البوت والمدة التي ظل يعمل فيها',
     securityToken: COMMAND_SECURITY_TOKEN,
     
     async execute(message, args, client) {
