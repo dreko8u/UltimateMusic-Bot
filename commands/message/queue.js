@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     name: 'queue',
     aliases: ['q', 'list', 'playlist', 'songs'],
-    description: 'Show the music queue',
+    description: 'عرض قائمة الانتظار الحالية وجميع الأغاني الموجودة فيها',
     securityToken: COMMAND_SECURITY_TOKEN,
     
     async execute(message, args, client) {
