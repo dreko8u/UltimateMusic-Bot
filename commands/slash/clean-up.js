@@ -8,7 +8,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('clean-up')
-        .setDescription('Force garbage collection (owner only)')
+        .setDescription('تنفيذ تنظيف للذاكرة المؤقتة الخاصة بالبوت (خاص بالمطور فقط)')
         .setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
     securityToken: COMMAND_SECURITY_TOKEN,
 
