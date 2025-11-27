@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('queue')
-        .setDescription('Show the music queue')
+        .setDescription('عرض قائمة الانتظار الحالية وجميع الأغاني الموجودة فيها')
         .addIntegerOption(option =>
             option.setName('page')
                 .setDescription('Queue page number')
