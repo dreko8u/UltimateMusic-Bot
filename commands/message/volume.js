@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     name: 'volume',
     aliases: ['vol', 'v'],
-    description: 'Set the music volume (1-100)',
+    description: 'تغيير مستوى صوت الموسيقى من 1 إلى 100',
     securityToken: COMMAND_SECURITY_TOKEN,
     
     async execute(message, args, client) {
