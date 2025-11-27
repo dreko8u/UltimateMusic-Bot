@@ -7,7 +7,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('autoplay')
-        .setDescription('Toggle autoplay mode')
+        .setDescription('تفعيل أو تعطيل وضع التشغيل التلقائي للأغاني بعد انتهاء القائمة')
         .addBooleanOption(option =>
             option.setName('enabled')
                 .setDescription('Enable or disable autoplay')
