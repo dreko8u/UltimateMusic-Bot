@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     name: 'play',
     aliases: ['p', 'music', 'song', 'add'],
-    description: 'Play a song or add to queue',
+    description: 'تشغيل أغنية أو إضافتها لقائمة الانتظار باستخدام الاسم أو الرابط',
     securityToken: COMMAND_SECURITY_TOKEN,
     
     async execute(message, args, client) {
