@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     name: 'nowplaying',
     aliases: ['np', 'current', 'playing', 'now'],
-    description: 'Show current playing song',
+    description: 'عرض معلومات الأغنية التي يتم تشغيلها حاليًا',
     securityToken: COMMAND_SECURITY_TOKEN,
     
     async execute(message, args, client) {
