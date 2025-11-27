@@ -5,7 +5,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 
 module.exports = {
     name: 'support',
-    description: 'Get support server and contact information',
+    description: 'عرض رابط سيرفر الدعم وطرق التواصل مع المطور',
     securityToken: COMMAND_SECURITY_TOKEN,
     
     async execute(message) {
