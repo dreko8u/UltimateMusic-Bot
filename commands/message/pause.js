@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     name: 'pause',
     aliases: ['break', 'hold'],
-    description: 'Pause the current song',
+    description: 'إيقاف الأغنية الحالية مؤقتًا بدون إزالتها',
     securityToken: COMMAND_SECURITY_TOKEN,
     
     async execute(message, args, client) {
