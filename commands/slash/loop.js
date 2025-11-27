@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('loop')
-        .setDescription('Set loop mode')
+        .setDescription('تحديد وضع التكرار: بدون تكرار، تكرار أغنية، أو تكرار القائمة')
         .addStringOption(option =>
             option.setName('mode')
                 .setDescription('Loop mode')
