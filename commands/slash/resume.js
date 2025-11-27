@@ -6,7 +6,7 @@ const COMMAND_SECURITY_TOKEN = shiva.SECURITY_TOKEN;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('resume')
-        .setDescription('Resume the paused music'),
+        .setDescription('استكمال تشغيل الأغنية بعد إيقافها مؤقتًا'),
     securityToken: COMMAND_SECURITY_TOKEN,
 
     async execute(interaction, client) {
